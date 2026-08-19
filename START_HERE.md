@@ -5,7 +5,7 @@
 This guide assumes you can log into a computer, open a terminal, and paste
 commands. It does **not** assume you know Docker, MCP, or how AI agents work.
 
-**One sentence:** HTTP 503 on a single-flight sidecar is a mutex, not a
+HTTP 503 on a single-flight sidecar is a mutex, not a
 flake — this library tells your loop to **break**, not retry.
 
 ## Who this helps
