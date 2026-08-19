@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sidecar-occupancy": {
+      "command": "python3",
+      "args": ["/ABS/PATH/examples/mcp_server.py"]
+    }
+  }
+}

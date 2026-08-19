@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sidecar-occupancy"
+version = "0.1.0"
+description = "Treat HTTP 503 occupancy as a lock. Break the handle loop; do not continue."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "CynicalTyr" }]
+keywords = ["ai-agents", "llm", "edge"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+mcp = ["mcp>=1.0"]
+
+[project.urls]
+Homepage = "https://github.com/CynicalTyr/sidecar-occupancy"
+Issues = "https://github.com/CynicalTyr/sidecar-occupancy/issues"
+
+[tool.setuptools]
+py-modules = ["occupancy"]
