@@ -1,7 +1,7 @@
 github_repo: sidecar-occupancy
-description: Treat HTTP 503 occupancy as a lock. Break the handle loop; do not continue.
+description: Classify HTTP 503 sidecar occupancy as a lock. Break the handle loop; do not retry-busy like Tenacity.
 homepage: START_HERE.md
-private: false
-topics: ai-agents,http,circuit-breaker,sidecar,mcp
+private: true
+topics: ai-agents,http-503,occupancy,livelock,sidecar,circuit-breaker
 source_folder: occupancy-break
 python: '3.12'
