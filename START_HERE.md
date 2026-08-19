@@ -219,5 +219,5 @@ a scanner. Occupancy will not save a mis-bound port.
 | MCP inspect tools | [`docs/MCP.md`](docs/MCP.md) |
 | The sidecar this policy wraps | [Curiosity-Docker START_HERE](https://github.com/CynicalTyr/Curiosity-Docker/blob/main/START_HERE.md) |
 
-You are done with first use when smoke prints `ok` and you can say in one
+You are done with first use when smoke prints `smoke ok` and you can say in one
 sentence whether **your** agent is a harness, a custom loop, or both.
