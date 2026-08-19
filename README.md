@@ -2,11 +2,11 @@
 
 **If you only open one file, open [`START_HERE.md`](START_HERE.md).**
 
-**One sentence:** Sidecar Occupancy classifies HTTP **503 / timeout /
+Sidecar Occupancy classifies HTTP **503 / timeout /
 transport** from a single-flight sidecar as a **lock**, and tells your
 agent to **break** the username (or job) loop instead of `continue`.
 
-**Value proposition:** Tenacity `@retry` and urllib3 `Retry` retry the
+Tenacity `@retry` and urllib3 `Retry` retry the
 *same call*. A locked sidecar is not a flake. Treating 503 `busy` as
 “try the next handle” livelocks the worker and looks like a hang. This
 kernel is the missing **break**, plus a three-strike abort — importable
